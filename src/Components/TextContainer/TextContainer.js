@@ -18,10 +18,10 @@ const TextContainer = ({ users }) => (
           justifyContent: "center",
         }}
       >
-        Welcome to Chat-Box
+        Chat Box
       </h1>
       <h2>
-        Experience the best get together connection.{" "}
+        Created with React, Express, Node and Socket.IO{" "}
         <span role="img" aria-label="emoji">
           ❤️
         </span>
@@ -29,7 +29,7 @@ const TextContainer = ({ users }) => (
     </div>
     {users ? (
       <div className="mainCntnr">
-        <h1>People Online:</h1>
+        <h1>People currently chatting:</h1>
         <div className="activeContainer">
           <h2 style={{ color: "hsla(232, 73%, 65%, 1)" }}>
             {users.map(({ name }) => (

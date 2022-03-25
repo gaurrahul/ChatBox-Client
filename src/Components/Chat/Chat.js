@@ -10,7 +10,7 @@ import TextContainer from "../TextContainer/TextContainer";
 let socket;
 
 function Chat({ location }) {
-  const ENDPOINT = "https://react-realchat-application.herokuapp.com/ ";
+  const ENDPOINT = "https://react-realchat-application.herokuapp.com/";
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
   const [message, setMessage] = useState("");
